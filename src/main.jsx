@@ -9,6 +9,7 @@ import {
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
+import Users from './Components/Users/Users';
 
 const router = createBrowserRouter([
   {
@@ -17,11 +18,15 @@ const router = createBrowserRouter([
     children : [
       {
         path: "/about",
-        element : <About></About>
+        element : <About></About>,
       },
       {
         path: "/contacts",
-        element : <Contact></Contact>
+        element : <Contact></Contact>,
+      },
+      {
+        path: "/users",
+        element : <Users></Users>,
       }
     ]
   },

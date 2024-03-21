@@ -1,0 +1,23 @@
+.route-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.route-container{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.route-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+.route-container ul a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
